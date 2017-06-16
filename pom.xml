@@ -6,6 +6,8 @@
 
     <groupId>web_projects</groupId>
     <artifactId>service-center</artifactId>
+    <packaging>war</packaging>
+
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>

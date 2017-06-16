@@ -7,7 +7,7 @@ import java.util.List;
 
 public class AddressService {
     public void addAddress(Address address) {
-        DAOFactory.getInstance().getAddressDAO().addElement(address);
+       DAOFactory.getInstance().getAddressDAO().addElement(address);
     }
 
     public void updateAddress(Address address) {
