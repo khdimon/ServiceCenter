@@ -1,14 +1,8 @@
 package com.softserve.edu.servicecenter.application;
 
-import com.softserve.edu.servicecenter.entity.Address;
-import com.softserve.edu.servicecenter.entity.Client;
 import com.softserve.edu.servicecenter.entity.Order;
 import com.softserve.edu.servicecenter.entity.Team;
-import com.softserve.edu.servicecenter.service.OrderService;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Collections;

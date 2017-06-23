@@ -1,20 +1,18 @@
 package com.softserve.edu.servicecenter.application;
 
-import com.softserve.edu.servicecenter.entity.Address;
 import com.softserve.edu.servicecenter.entity.Client;
 import com.softserve.edu.servicecenter.entity.Order;
 import com.softserve.edu.servicecenter.entity.Service;
-import com.softserve.edu.servicecenter.service.OrderService;
+import com.softserve.edu.servicecenter.service.OrderServiceImpl;
 import com.softserve.edu.servicecenter.service.ServiceService;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class OrderController {
     public void printAllOrders() {
-        OrderService service = new OrderService();
-        List<Order> orders = service.getAllOrder();
+        OrderServiceImpl service = new OrderServiceImpl();
+        List<Order> orders = service.getAllOrders();
         OrderView orderView = new OrderView();
         orderView.printOrders(orders);
     }
