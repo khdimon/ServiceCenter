@@ -1,3 +1,3 @@
 # ServiceCenter
 
-Training individual web project in SoftServe IT Academy
+Training individual web project in SoftServe IT Academy Test
